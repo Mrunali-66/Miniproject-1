@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware & Software Stack</title>
+    <link rel="stylesheet" href="Tech.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        
+                <h2>Project Technologies</h2>
+                <p>Comprehensive overview of hardware sensors and software tools utilized</p>
+            
+        </header>
+            <div class="container">
+                <h2 class="category-title">Hardware Sensors</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-image">
+                        <img src="./Image/ESP32-DEV-CH340-USBC-003.jpg" alt="DHT22 Temperature Sensor" />
+                    </div>
+                    <div class="tech-content">
+                        <h3>ESP32 Development Board
+                        </h3>
+                        <p>A microcontroller with built-in Wi-Fi and Bluetooth capabilities. </p>
+                        <div class="tech-specs">
+                            <span><strong>Dual-Core Processor:</strong> running up to 240 MHz.</span>
+                            <span><strong>Wi-Fi and Bluetooth:</strong> 2.4 GHz Wi-Fi (802.11 b/g/n) and Bluetooth (v4.2 BR/EDR)</span>
+                            <span><strong>Interface:</strong> Digital</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-image">
+                        <img src="./Image/HC-SR501.webp.jpg" alt="Motion Sensor (PIR HC-SR501)" />
+                    </div>
+                    <div class="tech-content">
+                        <h3>Motion Sensor (PIR HC-SR501)</h3>
+                        <p>Measures g-forces or sudden changes in movement.
+                        </p>
+                        <div class="tech-specs">
+                            <span><strong>Detection Range: </strong> Adjustable between 3 meters to 7 meters.</span>
+                            <span><strong>Trigger Time: </strong> Adjustable delay time, typically from 5 seconds to 5 minutes.</span>
+                            <span><strong>Field of View :</strong> Approximately 120° horizontal detection range.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-image">
+                        <img src="./Image/light.jpg" alt="Alert" />
+                    </div>
+                    <div class="tech-content">
+                        <h3>Alert Mechanisms</h3>
+                        <p> Implemented to notify you when motion is detected, either via sound, light, or even by sending a notification</p>
+                        <div class="tech-specs">
+                            <span><strong>LED:</strong> For visual alerts (e.g., indicating hazardous conditions). </span>
+                            <span><strong>Buzzer:</strong> For audio alerts to catch the attention of drivers. </span>
+                            <span><strong>Display (optional): </strong> An OLED or LCD display to show real-time sensor data.
+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="category-title">Software Tools</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-image">
+                        <img src="./Image/IDE.jpg" alt="Data Acquisition Software Interface" />
+                    </div>
+                    <div class="tech-content">
+                        <h3>Arduino IDE </h3>
+                        <p>Custom-built software for real-time sensor data collection and processing.</p>
+                        <div class="tech-specs">
+                            <span><strong>Language:</strong> C++</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-image">
+                        <img src="./Image/board.jpg" alt="Data Visualization Dashboard" />
+                    </div>
+                    <div class="tech-content">
+                        <h3> ESP32 Board Package for Arduino
+                        </h3>
+                        <p>Must be installed in the Arduino IDE to support programming for ESP32.
+                        </p>
+                        <div class="tech-specs">
+                            <span><strong>URL:</strong> https://dl.espressif.com/dl/package_esp32_index.json</span>
+                            <span><strong>Package name:</strong> esp32 by Espressif Systems</span>
+                            <span><strong>Updates:</strong> Real-time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <div class="tech-image">
+                        <img src="./Image/net.jpg" alt="Database Management System" />
+                    </div>
+                    <div class="tech-content">
+                        <h3>Networking Libraries
+                        </h3>
+                        <p>Robust system for storing and managing sensor data.</p>
+                        <div class="tech-specs">
+                            <span><strong>WiFi.h:</strong>For connecting the ESP32 to a Wi-Fi network.</span>
+                            <span><strong>HTTPClient.h</strong>For sending HTTP requests to a web server.</span>
+                            <span><strong>PubSubClient.h (optional):</strong> For MQTT communication if used for real-time data transmission.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            </div>
+            
+</body>
+</html>
